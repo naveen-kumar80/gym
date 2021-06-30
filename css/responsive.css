@@ -1,0 +1,57 @@
+@media screen and (max-width:1100px){
+    #navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #navbar ul{
+        font-size: 1.2rem;
+        
+        
+    }
+    .heading1{
+        font-size:35px;
+        position: absolute;
+        left: 20px;
+        top: 535px;
+        
+    }
+    #navbar ul li a{
+         padding: 0px 10px;
+    }
+    #home h1{
+        font-size: 1.8rem;
+    }
+    #home p{
+        font-size: 1rem;
+    }
+    #home{
+        height: 370px;
+        padding: 3px 40px;
+    }
+    #home::before{
+        width: 100%;
+        height: 480px;
+    }
+    #trainer{
+        flex-direction: column;
+    }
+    #trainer .box img{
+        width:240px
+    }
+    .center{
+        font-size: 1rem;
+    }
+    .center button a{
+        padding:0px 5px;
+    }
+    
+    #trainer .box {
+        margin: 28px 16px;
+        border-radius: 24px;
+        
+    }
+
+    
+}
